@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 /*
 
 Welcome to Mission RnD.
@@ -51,7 +52,8 @@ int main(){
 	//Variable Arguments
 	int total = variableArguments(3, 20, 90, 98);
 	printf("There are %d students greater than 90\n", total);
-	
+	getchar();
+	getchar();
 	
 	return 0;
 }
